@@ -2,12 +2,19 @@ body {
 	font-family: 'PT Sans Narrow', sans-serif;
 }
 
+/* Build a grid of cards for a company's products */
+/* The Grid */
+.cardContainer {
+	display: flex;
+	justify-content: space-around;
+}
+
 /* Each card should take up 30% of the width of the browser window.*/
 /*The entire card has a solid 1px border that is lightblue.*/
-#card {
-	/*display: inline-flex;*/
+.card {
 	max-width: 30%;
 	border: 1px solid lightblue;
+
 }
 
 /* The card title has a dotted 1px border that is lightgray.*/
@@ -19,7 +26,8 @@ h2:only-child {
 	text-align: center;
 }
 
-.section2, .section3, .prodImage {
+/* Fit the product image and text within the card */
+.item-2, .item-3, .prodImage {
 	max-width: 90%;
 	padding: 0 5%;
 }
@@ -27,6 +35,7 @@ h2:only-child {
 /* The text for the description in the image is justified.*/
 .prodDesc p:nth-child(n) {
 	padding: 0 5%;
+	margin-top: 10px;
 	text-align: justify;
 }
 
@@ -35,6 +44,7 @@ h2:only-child {
 	color: yellow;
 	font-weight: 900;
 	padding: 1% 5%;
+	margin-top: 10px;
 	background-color: lightgrey;
 }
 
@@ -42,14 +52,14 @@ h2:only-child {
 .details {
 	margin-bottom: 0;
 }
-.section2 p:nth-child(n) {
+.item-2 p:nth-child(n) {
 	font-weight: 900;
 	font-size: .9em;
 	padding: 0 5%;
 	margin: 0;
 }
 
-.section3 p:nth-child(n) {
+.item-3 p:nth-child(n) {
 	font-weight: 900;
 	font-size: .9em;
 	padding: 0 5%;
