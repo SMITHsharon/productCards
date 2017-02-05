@@ -2,21 +2,53 @@ body {
 	font-family: 'PT Sans Narrow', sans-serif;
 }
 
+/*********************************/
 /* Build a grid of cards for a company's products */
-/* The Grid */
-.cardContainer {
+/* THE GRID :: flexContainer */ 
+/*********************************/
+/*.cardGrid {
 	display: flex;
 	justify-content: space-around;
+}*/
+
+.cardGrid {
+    /*flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    /*flex-direction: row;*/
+    display: flex;
+    /*justify-content: space-around;*/
+    align-content: flex-start;
 }
 
+/*********************************/
+/* THE CARDS */
+/*********************************/
 /* Each card should take up 30% of the width of the browser window.*/
 /*The entire card has a solid 1px border that is lightblue.*/
-.card {
-	max-width: 30%;
+/*.card {
+	flex-wrap;
+	flex-basis: 30%;
 	border: 1px solid lightblue;
+}*/
 
+.card {
+    /*flex-grow: 1;*/
+    display: inline-block;
+    width: 30%;
+    border: 1px solid lightblue;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
+.row {
+	flex-wrap: wrap;
+}
+
+
+/*********************************/
+/* CARD HEADER <item-1> */
+/* and overall sizing structure <item-2> <item-3> <prodImage> */
+/*********************************/
 /* The card title has a dotted 1px border that is lightgray.*/
 /*The title and product image are centered. */
 h2:only-child {
@@ -27,37 +59,76 @@ h2:only-child {
 }
 
 /* Fit the product image and text within the card */
-.item-2, .item-3, .prodImage {
+/* components of .item-1 :: the product image and product description ; */
+/*.prodContainer {
+	max-width: 90%;
+	padding: 0 5%;
+}*/
+
+.prodContainer, .item-3, .item-4, .prodImage {
 	max-width: 90%;
 	padding: 0 5%;
 }
 
-/* The text for the description in the image is justified.*/
-.prodDesc p:nth-child(n) {
+.prodDesc {
+	max-width: 90%;
+	margin: auto;
+	/*padding: 0 5%;*/
+}
+
+/*.prodImage {
+	max-width: 90%;
+	padding: 0 5%;
+}*/
+
+.available {
+	max-width: 100%;
+	padding: 0 5%;
+}
+
+
+
+/*********************************/
+/* SECTION 1 <item-2> */
+/* Product Description
+/* "Available" | "Not Available" bar
+/*********************************/
+
+.item-2 p:nth-child(n) {
+	font-weight: 900;
+	font-size: .9em;
 	padding: 0 5%;
 	margin-top: 10px;
+}
+
+/* The text for the description in the image is justified.*/
+.prodDesc p:nth-child(n) {
 	text-align: justify;
 }
 
 .available {
 	max-width: 100%;
 	color: yellow;
-	font-weight: 900;
-	padding: 1% 5%;
-	margin-top: 10px;
+/*	padding:  5%;
+	margin: 10px;*/
 	background-color: lightgrey;
 }
 
-/*The text for the product specification details and pricing details is bold.*/
-.details {
+
+/*********************************/
+/* SECTIONS 2 and 3 <item-3> <item-4> */
+/* Specifications (Dimensions, Weight)
+/* Pricing
+/*********************************/
+
+h3 {
+/*.item-3 h3:only-child {*/
 	margin-bottom: 0;
 }
-.item-2 p:nth-child(n) {
-	font-weight: 900;
-	font-size: .9em;
-	padding: 0 5%;
-	margin: 0;
-}
+
+/*.details {
+	margin-bottom: 0;
+}*/
 
 .item-3 p:nth-child(n) {
 	font-weight: 900;
@@ -66,9 +137,21 @@ h2:only-child {
 	margin: 0;
 }
 
+.item-4 p:nth-child(n) {
+	font-weight: 900;
+	font-size: .9em;
+	padding: 0 5%;
+	margin: 0;
+}
+
+.item-4 {
+	margin-bottom: 10px;
+}
+
 footer {
-	font-size: .75em;
+	font-size: .75em; /* Specifications text
 	margin: 2%;
 }
 
+/*The text for the product specification details and pricing details is bold.*/
 
