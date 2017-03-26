@@ -1,20 +1,20 @@
 # NSS Product Cards
 
 ### Product Cards Project Description 
-This exercises uses css styling to build a grid of cards for a company's products, meeting the requirements listed in the Project Specs below. 
+This exercise uses css styling to build a grid of cards for a company's products, meeting the requirements listed in the Project Specs below. 
 
 #### Product Cards on Launch ... 
-![Product Cards on Launch](...)
+![Product Cards on Launch](https://raw.githubusercontent.com/SMITHsharon/productCards/screens/screens/Products%20Cards%20Screen%20Grab.png)
 
 #### ... Product Cards, Scrolling Down 
-![Product Cards, upon Scrolling](...)
+![Product Cards, upon Scrolling](https://raw.githubusercontent.com/SMITHsharon/productCards/screens/screens/Products%20Cards%20Screen%20Scroll.png)
 
 
 ### Project Specs
 1. Each Product Card is contained in an `article`.
 2. Each Card takes up 30% of the width of the browser window.
 3. Each Product contains a `header` element that, itself, contains an `h2` element where the Product's title is written.
-4. Each product consists of three sections:
+4. Each product consists of three sections.
 
 #### Section 1
 i. The first section contains three child block elements.
@@ -47,7 +47,7 @@ iv. Each block element contains information about the price for different quanti
 
 
 #### Visual example of an image that shows how the cards should appear
-![Example Image](...)
+![Example Image](https://raw.githubusercontent.com/SMITHsharon/productCards/screens/screens/Example%20Image.png)
 
 
 ### Technologies Used
