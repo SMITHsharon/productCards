@@ -17,10 +17,10 @@ This exercise uses `css` styling to build a grid of cards for a company's produc
 4. Each product consists of three sections.
 
 #### Section 1
-- i. The first section contains three child block elements.
-- ii. The first element contains the Product image.
-- iii.The second element contains the Product description.
-- iv. The third element contains the product availability (e.g. *Available* or *Not Available*).
+	i. The first section contains three child block elements.
+	ii. The first element contains the Product image.
+	iii.The second element contains the Product description.
+	iv. The third element contains the product availability (e.g. *Available* or *Not Available*).
 
 #### Section 2
 - i. The second section contains Product specifications.
