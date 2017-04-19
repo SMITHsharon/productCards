@@ -23,19 +23,19 @@ This exercise uses `css` styling to build a grid of cards for a company's produc
 	iv. The third element contains the product availability (e.g. *Available* or *Not Available*).
 
 #### Section 2
-- i. The second section contains Product specifications.
-- ii. This section includes a header that contains the word *Specifications*.
-- iii. This section contains two block elements:
+	i. The second section contains Product specifications.
+	ii. This section includes a header that contains the word *Specifications*.
+	iii. This section contains two block elements:
 	- The first block element specifies the size.
 	- The second block element specifies the weight.
-- iv. This section contains a footer.
-- v. The footer contains text stating when the product specifications become invalid.
+	iv. This section contains a footer.
+	v. The footer contains text stating when the product specifications become invalid.
 
 #### Section 3
-- i. The third section contains the product pricing.
-- ii. This section contains a header.
-- iii. This section contains three block elements.
-- iv. Each block element contains information about the price for different quantities.
+	i. The third section contains the product pricing.
+	ii. This section contains a header.
+	iii. This section contains three block elements.
+	iv. Each block element contains information about the price for different quantities.
 
 #### Additional style requirements
 1. The entire card has a solid 1px border that is lightblue.
