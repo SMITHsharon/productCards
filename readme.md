@@ -1,7 +1,7 @@
 # NSS Product Cards
 
 ### Product Cards Project Description 
-This exercise uses css styling to build a grid of cards for a company's products, meeting the requirements listed in the Project Specs below. 
+This exercise uses `css` styling to build a grid of cards for a company's products, meeting the requirements listed in the Project Specs below. 
 
 #### Product Cards on Launch ... 
 ![Product Cards on Launch](https://raw.githubusercontent.com/SMITHsharon/productCards/screens/screens/Products%20Cards%20Screen%20Grab.png)
@@ -60,11 +60,9 @@ iv. Each block element contains information about the price for different quanti
 ```
 git clone https://github.com/SMITHsharon/productCards.git
 cd productcards
-npm install http-server -g
 http-server -p 8080
+This will show in your browser at: http://localhost:8080
 ```
-
-This will show in your browser at: `http://localhost:8080`
 
 
 ### Contributor
